@@ -1,0 +1,26 @@
+mlproject
+
+Created repo
+Created a folder in the system
+Moved to this folder using cd C:\Users\shrih\OneDrive\Documents\Mein_Codebase\mlproject in anaconda prompt.
+Currently the env variable is base.
+Launch a vs code instance using->  code . 
+
+In vs code :
+open terminal and type the following to sync with the github repo.
+conda create -p venv python==3.11 -y 
+now a venv will be created.
+create a .gitignore file
+
+git pull -> to reflect all the changes in the github into the local system.
+
+create setup.py -> to use the ml model as a package. Check the .py file for more.
+check out the functionality of find_packages under setuptools package
+create requirements.txt. 
+create src folder which contains __init__.py . This is done to use the model as a package and can be imported later as package. 
+check get_requirements() fn to understand how to read the requirements.txt file
+-e . is used to trigger the setup.py. Its written in requirements.txt ( only then mlproject.egg-info folder will be created after the build) 
+
+now, type-> pip install -r requirements.txt and the package will be built
+
+
