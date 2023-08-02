@@ -1,5 +1,7 @@
 mlproject
+https://www.youtube.com/playlist?list=PLZoTAELRMXVPS-dOaVbAux22vzqdgoGhG  
 
+Part 1:
 Created repo
 Created a folder in the system
 Moved to this folder using cd C:\Users\shrih\OneDrive\Documents\Mein_Codebase\mlproject in anaconda prompt.
@@ -23,4 +25,7 @@ check get_requirements() fn to understand how to read the requirements.txt file
 
 now, type-> pip install -r requirements.txt and the package will be built
 
+Part2:
 
+Create a folder named components inside src and create a __init__.py file inside it. components are all the modules we are going to create eg for data ingestion. Data ingestion is a part of a module. create data_ingestion.py and data_transformation.py file inside components.
+create pipeline folder and files inside it. It also contains __init__.py . Similarly exception,logger and utils file.
